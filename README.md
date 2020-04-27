@@ -1,9 +1,12 @@
 # 2020-04-27 git basics O'Reilly Training Notes
 
-- init: create a git repository in current directory
-- status: tells you what is going on
+- git init: create a git repository in current directory
+  - you should only do this once in a repository (i.e. no nested git repos)
+- git status: tells you what is going on
 
 - atom FILENAME: creates or opens file in folder using Atom text editor
 
-- git add <FILENAME> : adds file to staging area
-- git commit -m "message" : commits the file with changes, and includes message to describe what changes were made
+- git add <FILENAME> : puts file(s) to staging area
+- git commit: commits the file with changes
+  - `commit -m "message"`: commits with message without opening up text editor
+  - message should describe what changes were made
