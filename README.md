@@ -8,7 +8,7 @@
 
 - `git add <FILENAME>`: puts file(s) to staging area
 - `git commit`: commits the file with changes
-  - `commit -m "message"`: commits with message without opening up text editor
+  - `git commit -m "message"`: commits with message without opening up text editor
   - message should describe what changes were made
 
 - `git log`: look at all the commit history you've been doing
